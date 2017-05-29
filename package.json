@@ -1,0 +1,38 @@
+{
+  "name": "mercadobitcoinjs",
+  "version": "0.1.0",
+  "description": "mercado bitcoin trade api and data api implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/marcocarvalho/mercadobitcoinjs.git"
+  },
+  "keywords": [
+    "mercadobitcoin",
+    "bitcoin",
+    "api"
+  ],
+  "author": {
+    "name": "Marco Carvalho",
+    "email": "marco.carvalho.swasthya@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcocarvalho/mercadobitcoinjs/issues"
+  },
+  "homepage": "https://github.com/marcocarvalho/mercadobitcoinjs#readme",
+  "devDependencies": {
+    "chai": "^4.0.0",
+    "mocha": "^3.4.2",
+    "nock": "^9.0.13",
+    "should": "^11.2.1",
+    "superagent-nock": "^0.3.0"
+  },
+  "dependencies": {
+    "crypto": "0.0.3",
+    "superagent": "^3.5.2"
+  }
+}
