@@ -23,8 +23,11 @@ describe('DataApi', function() {
           }
         });
       DataApi.superagent = superagent;
-      DataApi.ticker(function(result){
-        expect(result).to.equal({ticker: {high: 10101, low: 9550.00001, vol: 261.87099403, last: 9900, buy: 9900, sell: 9966, date: 1496063965 } }) });
+      DataApi.ticker(function(res){
+        //console.log('-------------------------------------------------------------');
+        //console.log(res);
+        //console.log('-------------------------------------------------------------');
+        expect(res).to.equal({ticker: {high: 10101, low: 9550.00001, vol: 261.87099403, last: 9900, buy: 9900, sell: 9966, date: 1496063965 } }) });
       });
   });
 });

@@ -6,3 +6,5 @@ module:
   volumes:
     - .:/app
     - $SSH_AUTH_SOCK:/tmp/agent.sock
+  ports:
+    - "9229:9229"

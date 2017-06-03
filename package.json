@@ -33,6 +33,7 @@
   },
   "dependencies": {
     "crypto": "0.0.3",
+    "qs": "^6.4.0",
     "superagent": "^3.5.2"
   }
 }
