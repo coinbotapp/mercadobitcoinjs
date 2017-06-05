@@ -33,7 +33,9 @@
   },
   "dependencies": {
     "crypto": "0.0.3",
+    "object-assign": "^4.1.1",
     "qs": "^6.4.0",
-    "superagent": "^3.5.2"
+    "superagent": "^3.5.2",
+    "underscore": "^1.8.3"
   }
 }
