@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/marcocarvalho/mercadobitcoinjs.git"
+    "url": "git+ssh://git@github.com/coinbotapp/mercadobitcoinjs.git"
   },
   "keywords": [
     "mercadobitcoin",
@@ -21,9 +21,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/marcocarvalho/mercadobitcoinjs/issues"
+    "url": "https://github.com/coinbotapp/mercadobitcoinjs/issues"
   },
-  "homepage": "https://github.com/marcocarvalho/mercadobitcoinjs#readme",
+  "homepage": "https://github.com/coinbotapp/mercadobitcoinjs#readme",
   "devDependencies": {
     "chai": "^4.0.0",
     "mocha": "^3.4.2",
